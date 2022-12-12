@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 6em 1em 0;
+    align-items:baseline;
+}
+
+.score {
+    max-height: 2.5em;
+    padding: .5em 1.3em;
+    background-color: hsl(35, 77%, 62%);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.account {
+    display: inline-block;
+    position: relative;
+}
+
+.account:hover .dropdown {
+    display: block;
+}
+
+.account-pic {
+    width: 3em;
+    border-radius: 50%;
+}
+
+.account-div {
+    display: flex;
+    gap: 2em;
+}
+
+.dropdown {
+    min-width: 10em;
+    transform: translate(-50%, 0);
+    background: white;
+    position: absolute;
+    z-index: 10;
+    display: none;
+    border-radius: 10px;
+}
+
+.dropdown li {
+    padding: 1em;
+    text-align: center;
+    display: block;
+}
+.dropdown li:nth-child(1) {
+    border-radius: 10px 10px 0 0;
+}
+
+.dropdown li:nth-child(2) {
+    border-radius: 0 0 10px 10px;
+}
+
+.dropdown li:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+ul li a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+ }
+
+.person {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+.points {
+    color: white;
+    font-size: 1.6rem;
+}
+.person img {
+    width: 50px;
+    border-radius: 50%;
+}
+ 
+
+.leaderboard {
+    padding: 1.2em 1.5em 1.2em  0.4em;
+    border-radius: 20px;
+}

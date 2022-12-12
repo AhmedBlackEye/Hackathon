@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style/sidebar.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/slider.css">
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="script/sidebar.js"></script>
+    <script defer src="script/swiper-bundle.min.js"></script>
+    <script defer src="script/slider.js"></script>
+    
+    <title>Blogs</title> 
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image" id="logo" >
+                    <img src="images/logo.png" alt="">
+                </span>
+
+                <!-- <div class="text logo-text">
+                    <span class="name">LAET</span>
+                    <span class="profession">Blogs</span>
+                </div> -->
+            </div>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-news icon' ></i>
+                            <span class="text nav-text">News and Topics</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Leaderboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Notifications</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-book icon' ></i>
+                            <span class="text nav-text">HW help</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bookmark icon' ></i>
+                            <span class="text nav-text">Bookmarks</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <!-- <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                 -->
+            </div>
+        </div>
+
+    </nav>
+
+    <main class="home">
+        <div class="nav-2">
+            <div class="text" id="school-name">LAET Blogs</div>
+            <div class="account-div">
+                <div class="score">1308</div>
+                <div class="account">
+                    <img class='account-pic' src="images/account-img.png" alt="" srcset="">
+                    <ul class="dropdown">
+                        <li><a href="#">View profile</a></li> 
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section class="main">
+            <section>
+              <!-- <img
+                src="./assets/images/image-web-3-desktop.jpg"
+                alt="web-3 Image for desktop"
+              /> -->
+              <div class="imagebg"></div>
+            </section>
+            <article>
+              <h1>The Bright Future of Web 3.0?</h1>
+            </article>
+            <article>
+              <p>
+                We dive into the next evolution of the web that claims to put the
+                power of the platforms back into the hands of the people. But is it
+                really fulfilling its promise?
+              </p>
+              <button>Read More</button>
+            </article>
+            <aside class="leaderboard">
+              <h2>Leaderboard</h2>
+      
+              <div class="__box_content">
+                <div class="person">
+                    <img src="images/profile/profile1.jpg" alt="" />
+                    <div class="points">943</div>
+                </div>
+                <div class="border"></div>
+              </div>
+      
+              <div class="__box_content">
+                <div class="person">
+                    <img src="images/profile/profile1.jpg" alt="" />
+                    <div class="points">943</div>
+                </div>
+                <div class="border"></div>
+              </div>
+              <div class="__box_content">
+                <div class="person">
+                    <img src="images/profile/profile1.jpg" alt="" />
+                    <div class="points">943</div>
+                </div>
+                <div class="border"></div>
+              </div>
+              <div class="__box_content">
+                <div class="person">
+                    <img src="images/profile/profile1.jpg" alt="" />
+                    <div class="points">943</div>
+                </div>
+              </div>
+            </aside>
+            <div>
+                
+            </div>
+        </section>
+        
+          <div class="container swiper">
+            <div class="slide-container">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                      <img src="images/showImg/appDev.jpg" alt="" />
+                    </div>
+                    <div class="card-text">
+                      <h3>Envrioment</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cum, accusantium iusto mollitia possimus modi sapiente quisquam? Corrupti qui fugit voluptas vero consequatur accusantium, nesciunt eveniet deserunt quos expedita? Amet?</p>
+                      <br>
+                      <div class="profile-details">
+                          <img src="images/profile/profile4.jpg" alt="" />
+                          <div class="name-job">
+                              <h3 class="name">Priase</h3>
+                              <h4 class="job">Year 12</h4>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                      <img src="images/showImg/appDev.jpg" alt="" />
+                    </div>
+                    <div class="card-text">
+                      <h3>Envrioment</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cum, accusantium iusto mollitia possimus modi sapiente quisquam? Corrupti qui fugit voluptas vero consequatur accusantium, nesciunt eveniet deserunt quos expedita? Amet?</p>
+                      <br>
+                      <div class="profile-details">
+                          <img src="images/profile/profile4.jpg" alt="" />
+                          <div class="name-job">
+                              <h3 class="name">Priase</h3>
+                              <h4 class="job">Year 12</h4>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                      <img src="images/showImg/appDev.jpg" alt="" />
+                    </div>
+                    <div class="card-text">
+                      <h3>Envrioment</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cum, accusantium iusto mollitia possimus modi sapiente quisquam? Corrupti qui fugit voluptas vero consequatur accusantium, nesciunt eveniet deserunt quos expedita? Amet?</p>
+                      <br>
+                      <div class="profile-details">
+                          <img src="images/profile/profile4.jpg" alt="" />
+                          <div class="name-job">
+                              <h3 class="name">Priase</h3>
+                              <h4 class="job">Year 12</h4>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                <div class="card swiper-slide">
+                  <div class="image-box">
+                    <img src="images/showImg/appDev.jpg" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h3>Envrioment</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cum, accusantium iusto mollitia possimus modi sapiente quisquam? Corrupti qui fugit voluptas vero consequatur accusantium, nesciunt eveniet deserunt quos expedita? Amet?</p>
+                    <br>
+                    <div class="profile-details">
+                        <img src="images/profile/profile4.jpg" alt="" />
+                        <div class="name-job">
+                            <h3 class="name">Priase</h3>
+                            <h4 class="job">Year 12</h4>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                      <img src="images/showImg/appDev.jpg" alt="" />
+                    </div>
+                    <div class="card-text">
+                      <h3>Envrioment</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cum, accusantium iusto mollitia possimus modi sapiente quisquam? Corrupti qui fugit voluptas vero consequatur accusantium, nesciunt eveniet deserunt quos expedita? Amet?</p>
+                      <br>
+                      <div class="profile-details">
+                          <img src="images/profile/profile4.jpg" alt="" />
+                          <div class="name-job">
+                              <h3 class="name">Priase</h3>
+                              <h4 class="job">Year 12</h4>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </main>
+</body>
+</html>
