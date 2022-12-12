@@ -13,6 +13,10 @@ html {
   width: 900px;
   margin-inline: auto;
 }
+main a {
+  text-decoration: none;
+  color: white;
+}
 
 .main > aside {
   background-color: hsl(240, 100%, 5%);
